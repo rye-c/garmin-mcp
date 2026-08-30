@@ -1,15 +1,10 @@
 {
   "mcpServers": {
     "garmin": {
-      "command": "uvx",
-      "args": [
-        "--python", "3.12",
-        "--from", "git+https://github.com/Taxuspt/garmin_mcp",
-        "garmin-mcp"
-      ],
+      "command": "bash",
+      "args": ["scripts/run_garmin_mcp.sh"],
       "env": {
-        "GARMIN_EMAIL": "${GARMIN_EMAIL}",
-        "GARMIN_PASSWORD": "${GARMIN_PASSWORD}"
+        "GARMIN_TOKENS_B64": "${GARMIN_TOKENS_B64}"
       }
     }
   }

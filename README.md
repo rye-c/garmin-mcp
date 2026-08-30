@@ -29,57 +29,46 @@ suggested activity on your watch), and logs its reasoning.
 
 ## Setup
 
-### 1. Garmin credentials
+### 1. Garmin credentials — your password never touches this system
 
-This needs your Garmin Connect login to read your data and write to your
-calendar — there's no official personal API, so this uses the same
-reverse-engineered Connect API Garmin's own apps use.
+There's no official personal Garmin API, so this uses the same
+reverse-engineered Connect API Garmin's own apps use — but your actual
+Garmin password is never entered into any Claude session, any chat, or any
+Claude Code Remote environment config. Instead:
 
-**If your Garmin account does not use MFA (recommended for this):**
-set two environment variables on the Claude Code Remote *environment* this
-project runs in (not committed to git, not pasted into chat):
+**Run this on your own computer** (not in any Claude session — needs
+Python 3.12+ and [`uv`](https://docs.astral.sh/uv/getting-started/installation/)
+installed locally):
 
 ```
-GARMIN_EMAIL=you@example.com
-GARMIN_PASSWORD=your-garmin-password
+uvx --python 3.12 --from git+https://github.com/Taxuspt/garmin_mcp garmin-mcp-auth
 ```
 
-**If your account uses MFA**, direct env-var login won't work for an
-unattended daily job. Instead, run the one-time interactive pre-auth flow
-yourself (`uvx --from git+https://github.com/Taxuspt/garmin_mcp
-garmin-mcp-auth`) to cache OAuth tokens (valid ~6 months) to
-`~/.garminconnect`, and drop `GARMIN_EMAIL`/`GARMIN_PASSWORD` from the MCP
-config entirely — but note that only works if the daily job reuses the same
-persistent home directory, which a fresh-session-per-day automation does
-not. Ask if you want help wiring up the persistent-session variant instead.
+It prompts for your email, password, and MFA code (if enabled) — all typed
+locally, never sent anywhere but Garmin. On success it writes two files:
+
+- `~/.garminconnect/garmin_tokens.json` — the raw OAuth token (leave this
+  on your machine, don't send it)
+- `~/.garminconnect_base64` — the same token, base64-encoded as a single
+  line, specifically meant to be moved elsewhere
+
+Get the contents with `cat ~/.garminconnect_base64` and give **only that
+string** to your assistant to set as the `GARMIN_TOKENS_B64` environment
+secret on the Claude Code Remote environment this runs in. It's a bearer
+token, not your password — it expires in ~6 months and can be revoked
+independently (e.g. by changing your Garmin password) without this repo
+ever having held your real credentials.
+
+When it expires, re-run the same command locally (`--force-reauth` if
+tokens still exist) and update the `GARMIN_TOKENS_B64` secret.
 
 ### 2. `.mcp.json`
 
-Claude Code's permission classifier blocks me from writing this file
-directly (it configures what commands a session can auto-execute), so add
-it yourself at the repo root:
-
-```json
-{
-  "mcpServers": {
-    "garmin": {
-      "command": "uvx",
-      "args": [
-        "--python", "3.12",
-        "--from", "git+https://github.com/Taxuspt/garmin_mcp",
-        "garmin-mcp"
-      ],
-      "env": {
-        "GARMIN_EMAIL": "${GARMIN_EMAIL}",
-        "GARMIN_PASSWORD": "${GARMIN_PASSWORD}"
-      }
-    }
-  }
-}
-```
-
-This requires `uv`/`uvx` to be available in the environment the daily
-session runs in.
+Already checked in — wires up the `garmin` MCP server via
+`scripts/run_garmin_mcp.sh`, which materializes the token from
+`GARMIN_TOKENS_B64` into `~/.garminconnect/` on startup (only if no token
+file exists yet there) before launching the server. Requires `uv`/`uvx` to
+be available in the environment the daily session runs in.
 
 ### 3. First coaching session (manual, to trust the MCP server + do the initial assessment)
 
