@@ -19,6 +19,32 @@ Template for each entry:
 
 ---
 
+## 2026-08-31
+
+- Readiness inputs: Sleep score 91/100 (EXCELLENT), 7h46m, sleep factor
+  91% VERY_GOOD. HRV 60ms overnight — above the balanced band (44–58ms),
+  weekly avg 55ms, status BALANCED per Garmin. Resting HR 46 bpm (down
+  slightly from yesterday's 47). Garmin Training Readiness: 94/100 (HIGH,
+  "EXCELLENT_RECOVERY"), recovery factor 100%. Training status RECOVERY_2,
+  acute load 246 (down from 312 — yesterday's run didn't happen), ACWR 0.4
+  "LOW" — no overtraining risk. No activity logged yet today. Last actual
+  run was 3 days ago (Aug 28, treadmill, easy); last longer effort was
+  Aug 21 (10 days ago).
+- Read on readiness: About as good as readiness gets — excellent sleep,
+  HRV above baseline, low RHR, high Garmin readiness score, and load is
+  low/under-loaded rather than accumulated. No fatigue or stacking
+  concerns; the only thing to weigh is that it's been a few days since the
+  last run and over a week since a longer one.
+- Decision: Easy Zone 2 run, longer than yesterday's planned session
+  (which didn't happen) — still no threshold work this early in Base 1,
+  but no reason to hold back on duration given how fresh the athlete is
+  and the gap since the last run.
+- Scheduled: "Z2 Easy — 8/31" (workout id 1683114244) on today's calendar
+  — 5min warmup walk, 45min continuous run targeting 138–149 bpm, 5min
+  cooldown walk. No pace target.
+
+---
+
 ## 2026-08-30
 
 > Note to athlete: First successful data pull — Garmin connection is
