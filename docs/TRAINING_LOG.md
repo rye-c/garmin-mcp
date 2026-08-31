@@ -19,6 +19,56 @@ Template for each entry:
 
 ---
 
+## 2026-08-30
+
+> Note to athlete: First successful data pull — Garmin connection is
+> working now. Good news / less-good news on the goal: **10 miles is a
+> realistic distance to build to in 16 weeks**, but **7:45/mi at true
+> Zone 2 HR looks optimistic on that timeline**. Your current pace at
+> Zone 2 (142–149 bpm) is averaging ~10:15/mi — a ~2:30/mi gap from
+> target, and aerobic pace-at-HR typically only closes 10–30 sec/mi per
+> solid 8–12 week base block. That points to something more like
+> 40–60+ weeks to close the full gap, not 16. I'm not changing the plan
+> today — just flagging it early so it's not a surprise later. Full
+> reasoning is in `ATHLETE_PROFILE.md` § Feasibility verdict; I'll
+> re-check this in 2–3 weeks with more data, and it could move either
+> way.
+
+- Readiness inputs: HRV 53ms last night (weekly avg 54ms, baseline
+  balanced 44–58ms) → BALANCED, not depressed. Sleep score 70/100 (FAIR),
+  7h37m, sleep factor only MODERATE (55%). Resting HR 47 bpm, matches
+  7-day average — not elevated. Garmin's own Training Readiness score:
+  77/100 (HIGH — "EXCELLENT_RECOVERY"), recovery factor 99% GOOD, training
+  load factor 100% VERY_GOOD. Training status: RECOVERY_2, acute load 312
+  vs. chronic load 533 (ratio 0.5, ACWR "LOW" — well under-loaded, no
+  overtraining risk). Already did a ~69min freediving/apnea session this
+  morning (avg HR 101, "EASY_RECOVERY" per body-battery feedback) — light
+  aerobic load, not a running effort.
+- Read on readiness: Good across the board — balanced HRV, normal RHR,
+  high readiness score, low training strain. Sleep was just okay (FAIR),
+  not a red flag on its own. Last run was 2 days ago (Aug 28, easy,
+  HR~125) and the last long-ish run was 9 days ago (Aug 21) — no
+  back-to-back hard days to worry about stacking. It's evening (~6:30pm
+  local) and the athlete already trained once today, so favor a moderate
+  session over a long run.
+- Decision: Easy Zone 2 run — readiness supports training, but given the
+  morning session and time of day, keep it moderate rather than pushing a
+  long run. This is effectively day 1 of the Base 1 phase (see `PLAN.md`),
+  so the priority is building/confirming Zone 2 volume and pace-at-HR, not
+  intensity — no threshold work this early even though Garmin's own
+  Training Load Balance shows an anaerobic shortage; that's a general
+  fitness metric, not a signal to override the plan's periodization this
+  early.
+- Scheduled: "Z2 Easy — 8/30" (workout id 1682046085) on today's calendar
+  — 5min warmup walk, 30min continuous run targeting **138–149 bpm**
+  (custom HR range, not a named Garmin zone — see `ATHLETE_PROFILE.md` for
+  why), 5min cooldown walk. No pace target, per Zone 2 policy.
+- Also updated `ATHLETE_PROFILE.md` with first real baseline numbers (HR
+  zones estimated from LTHR, current pace-at-Zone-2-HR, VO2max, weekly
+  volume) and the feasibility verdict above.
+
+---
+
 ## 2026-08-29
 
 > Note to athlete: This first coaching session couldn't reach your Garmin
