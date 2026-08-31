@@ -66,6 +66,12 @@ Template for each entry:
 - Also updated `ATHLETE_PROFILE.md` with first real baseline numbers (HR
   zones estimated from LTHR, current pace-at-Zone-2-HR, VO2max, weekly
   volume) and the feasibility verdict above.
+- Update, ~8pm same day: athlete reports today's scheduled "Z2 Easy — 8/30"
+  run won't happen — ran out of daylight/time. Leaving it as a skipped
+  suggested activity rather than unscheduling; not treating it as debt to
+  repay tomorrow (per `CLAUDE.md`, a skipped day doesn't get doubled up).
+  Tomorrow's actual session still needs to be decided fresh from that
+  morning's real sleep/HRV/RHR — not pre-committed tonight.
 
 ---
 
