@@ -43,6 +43,13 @@ Template for each entry:
 - Scheduled: "Z2 Easy — 9/1" (workout id 1684304993) on today's calendar —
   5min warmup walk, 35min continuous run targeting 138–149 bpm, 5min
   cooldown walk. No pace target.
+- Completed (activity id 24196909891): 5.13mi in 49:43, avg HR **144
+  bpm** — right inside the 138–149 target range. Pace ≈9:42/mi at that
+  HR — faster than yesterday's 10:02/mi at a nearly identical HR (142bpm),
+  and close to the 2026-05 season-high Zone-2 pace (9:14/mi) flagged in
+  the year-long feasibility review. Two data points isn't a trend, but
+  it's an encouraging start to this block — worth watching whether it
+  holds over the next couple of weeks rather than reading into it yet.
 
 ---
 
