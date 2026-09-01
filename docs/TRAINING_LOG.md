@@ -19,7 +19,67 @@ Template for each entry:
 
 ---
 
+## 2026-09-01
+
+- Readiness inputs: Sleep score 72/100 (FAIR), 6h52m, 4 awakenings (~45min
+  awake), sleep factor only 58% MODERATE. HRV 63ms overnight (above the
+  balanced band 44–58ms), weekly avg 56ms, status BALANCED. Resting HR
+  **43 bpm** — a new low vs. the recent 46–47bpm baseline. Garmin Training
+  Readiness: 75/100 (HIGH, "WELL_RECOVERED"), recovery factor 99% GOOD,
+  training load factor 100% VERY_GOOD. Training status RECOVERY_2, acute
+  load 315 vs. chronic 508, ACWR 0.6 "LOW" — still under-loaded, no
+  overtraining risk. No activity logged yet today; yesterday's run (5.15mi,
+  avg HR 142) was completed.
+- Read on readiness: Good, not exceptional — HRV and RHR both look great
+  (RHR especially, a season low), but sleep was only fair with some
+  fragmentation, which is the one thing holding the readiness score below
+  yesterday's 94. No red flags, no reason to deviate from the plan, but
+  also no case for pushing harder or longer than yesterday given it's a
+  second consecutive running day and sleep wasn't fully dialed in.
+- Decision: Easy Zone 2 run again, similar duration to yesterday rather
+  than longer — back-to-back running days call for holding steady, not
+  progressing volume, especially on FAIR sleep. Still no threshold/strides
+  work this early in Base 1.
+- Scheduled: "Z2 Easy — 9/1" (workout id 1684304993) on today's calendar —
+  5min warmup walk, 35min continuous run targeting 138–149 bpm, 5min
+  cooldown walk. No pace target.
+
+---
+
 ## 2026-08-31
+
+> Note to athlete: Pulled a full year of Garmin activity history (see
+> addendum below) — it changes the feasibility picture from the first
+> (2026-08-30) pass. Good news: **the 10-mile distance at Zone 2 effort is
+> already proven** — you ran 13.6mi at 144bpm back in March. Less-good
+> news: **pace-at-Zone-2-HR is net ~36 sec/mi slower now than a year ago**
+> (9:35/mi last Sept vs. ~10:11/mi now), despite 965mi of volume in
+> between — it's not a steady climb, it swings hard with season
+> (winter slump, May peak at 9:14/mi, summer slide since). 16 weeks to
+> 7:45/mi at Zone 2 looks more optimistic with this fuller picture, not
+> less. Full reasoning in `ATHLETE_PROFILE.md` § Feasibility verdict.
+
+- Addendum, evening: pulled and analyzed the full 2025-08-31–2026-08-31
+  activity history at the athlete's request (193 runs, 965mi total, no
+  races logged). Key findings — full detail in `ATHLETE_PROFILE.md`:
+  - Longest run of the year: 13.6mi on 2026-03-29 at avg HR 144bpm (true
+    Zone 2). Also a 10.0mi run on 2026-03-22 at 150bpm. Distance piece of
+    the goal is not hypothetical — already demonstrated, well before this
+    coaching system existed.
+  - Consistency: a run roughly every 1.9 days for the full year, only two
+    gaps ≥7 days (2025-11-05→17, 11 days; 2026-05-29→06-08, 10 days).
+  - Pace at Zone-2-band HR (138–149bpm) by season: Sep 2025 9:35/mi → Feb
+    2026 season-low 11:01/mi → May 2026 season-high (best of year) 9:14/mi
+    → current ~10:11/mi. Net 12-month change: ~36 sec/mi slower, not
+    improved — contradicts the steady-improvement assumption the first
+    feasibility pass used.
+  - VO2max corroborates a recent slide: 50.0 (2026-06-03) → 48.0
+    (2026-07-02).
+  - Plausible confounds for the summer slide (not just detraining): the
+    10-day late-May/June gap, and LA summer heat inflating HR at a given
+    pace.
+  - Updated `ATHLETE_PROFILE.md` § Feasibility verdict accordingly;
+    superseded (not deleted) the 2026-08-30 first-pass verdict there.
 
 - Readiness inputs: Sleep score 91/100 (EXCELLENT), 7h46m, sleep factor
   91% VERY_GOOD. HRV 60ms overnight — above the balanced band (44–58ms),

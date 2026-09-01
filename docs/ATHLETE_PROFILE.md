@@ -1,6 +1,7 @@
 # Athlete Profile
 
-_Last updated: 2026-08-30 (first successful Garmin data pull)_
+_Last updated: 2026-08-31 (full year of Garmin activity history pulled and
+analyzed; feasibility verdict revised)_
 
 ## Goal
 
@@ -36,23 +37,44 @@ patterns in the training log)_
 
 ## Feasibility verdict (updated as data comes in)
 
-**First assessment, 2026-08-30 — 16 weeks looks optimistic.**
+**Updated 2026-08-31 (full year of Garmin history pulled) — 16 weeks looks
+optimistic, more firmly than the first pass suggested.**
 
-- Distance piece: comfortably plausible. Longest recent runs are already
-  ~7.1mi (2026-08-10) and ~6.6mi (2026-08-21); extending to 10mi over 16
-  weeks at a sane build rate is routine.
-- Pace-at-Zone-2-HR piece: the hard part. Current pace at true Zone 2 HR
-  (142–149 bpm) is ~10:05–10:52/mi (avg ≈10:15/mi) vs. the 7:45/mi target —
-  a gap of roughly **2:30/mi**. Per `PLAN.md`'s rule of thumb
-  (10–30 sec/mi improvement per solid 8–12 week base block), even at the
-  optimistic end that gap implies on the order of **5+ base blocks —
-  roughly 40-60+ weeks**, several times the proposed 16-week window. This
-  is directional, not a precise ETA — individual response varies a lot —
-  but the order of magnitude is clear enough to flag now rather than let
-  it ride quietly.
-- Recommendation: treat 16 weeks as an early **checkpoint to reassess
-  progress and revise the timeline**, not a hard deadline for hitting
-  7:45/mi at Zone 2 for the full 10mi. Re-run this assessment in 2–3 weeks
-  once more pace-at-HR data accumulates — the verdict could move either
-  direction as real trend data comes in.
-- Flagged to the athlete in `TRAINING_LOG.md` (2026-08-30 entry).
+- Distance piece: **solved, not just plausible.** A year-long pull of
+  activities (2025-08-31 to 2026-08-31, 193 runs / 965mi) turned up a
+  13.6mi run on 2026-03-29 at avg HR 144bpm — inside true Zone 2 — and a
+  10.0mi run on 2026-03-22 at 150bpm. The athlete has already run the goal
+  distance, and beyond it, at close to Zone 2 effort. Extending back to
+  10mi from the current ~5mi long run is a rebuild, not new territory.
+- Pace-at-Zone-2-HR piece: still the hard part, and the year of data makes
+  it look harder than the first 3-week snapshot implied. Isolating runs
+  with avg HR in the 138–149bpm band by month:
+  - Sep 2025: 9:35/mi → Feb 2026 (season low): 11:01/mi
+  - Mar–May 2026 (season high, May): 9:14/mi — the athlete's best
+    demonstrated Zone-2 pace all year
+  - Jun–Aug 2026: sliding back to ~10:11/mi (current)
+  - **Net over the full 12 months: ~36 sec/mi *slower* now than a year
+    ago**, despite 965mi of volume in between — not the steady
+    block-over-block improvement the original heuristic assumed. VO2max
+    corroborates the recent slide: 50.0 (2026-06-03) → 48.0 (2026-07-02).
+  - Plausible confounds, not just fitness loss: a 10-day layoff
+    (2026-05-29 to 2026-06-08) right after the May peak, and summer heat
+    (LA, Jul–Aug) reliably inflates HR at a given pace independent of
+    fitness. The 9:14/mi May figure shows the athlete's ceiling is real
+    and higher than current — the problem is holding near it through an
+    uninterrupted block, not raw capability.
+- Revised recommendation: 16 weeks remains a **checkpoint, not a
+  deadline**, and the case for that is now stronger than 2026-08-30's
+  first pass — "flat-to-negative over a year" is a worse starting trend
+  line than the original 10–30 sec/mi-per-block heuristic assumed. Priority
+  for the next block: protect against repeat multi-week gaps (the
+  2026-05-29–06-08 gap visibly preceded the summer slide) and don't fight
+  peak-heat conditions for HR-capped work where avoidable. Re-run this
+  again in 2–3 weeks with fresh data.
+- Flagged to the athlete in `TRAINING_LOG.md` (2026-08-31 entry, addendum).
+
+_Superseded first assessment, 2026-08-30 (based on ~3 weeks of data):_ distance
+called "plausible" from a 7.1mi longest-run high-water mark; pace-at-HR gap
+estimated at ~2:30/mi implying ~40–60+ weeks via the generic heuristic. The
+year-long pull above replaces this with actual measured history rather than
+a heuristic projection.
