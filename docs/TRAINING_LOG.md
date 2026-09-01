@@ -50,6 +50,12 @@ Template for each entry:
   the year-long feasibility review. Two data points isn't a trend, but
   it's an encouraging start to this block — worth watching whether it
   holds over the next couple of weeks rather than reading into it yet.
+- Note: actual duration (~50min) ran well past the prescribed 35min — HR
+  stayed in-range throughout, so this wasn't a control-loss/pace problem,
+  but today's training load landed higher than planned. Factor this into
+  tomorrow's readiness read (treat today as a longer effort, not the
+  moderate session it was scheduled as) rather than assuming today's load
+  was as light as the original 35min prescription.
 
 ---
 
