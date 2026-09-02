@@ -19,6 +19,60 @@ Template for each entry:
 
 ---
 
+## 2026-09-02
+
+> Note to athlete: No Zone 2 workout had been scheduled on the calendar
+> before you headed out this morning — this morning's coaching session
+> hadn't run yet, so the run went out unprescribed. It came in harder than
+> the recent Zone 2 pattern: avg HR 154bpm, drifting from 137bpm (mile 1)
+> up to 166bpm (final split) while pace held roughly flat-to-faster
+> throughout (~8:46–9:24/mi) — that's Z3/Z4 effort by the LTHR-based bands
+> in `ATHLETE_PROFILE.md`, not the 138–149bpm Zone 2 the plan targets, and
+> pace didn't back off as HR climbed. Post-run Garmin readiness dropped to
+> 46/100 ("HIGH_RECOVERY_NEEDS", recovery factor POOR, ~38.9h recovery
+> time) vs. 74 ("RECOVERED_AND_READY") at wakeup. Good fitness data point
+> (9:00/mi average pace, the fastest of any recent run), but plan on
+> genuinely easy or rest tomorrow — will confirm with the morning read.
+
+- Readiness inputs (pre-run, Garmin's wakeup-time reset snapshot — no
+  coaching session had run yet this morning): Sleep score 84/100 (GOOD),
+  6h36m, 2 awakenings (~23min awake). HRV 56ms overnight, weekly avg 56ms,
+  top of the balanced band (45–58ms) → BALANCED. Resting HR **45 bpm** —
+  another season-low-range reading, in line with the recent 43–47bpm
+  string. Garmin Training Readiness at wakeup: 74/100 (MODERATE,
+  "RECOVERED_AND_READY"), recovery factor 93% GOOD, acute load 396
+  (pre-run). Training status MAINTAINING_2, chronic load 562, ACWR
+  "OPTIMAL".
+- Read on readiness: Good morning numbers — sleep, HRV, and RHR all solid,
+  consistent with the last several days, no red flags. Reconstructed after
+  the fact from Garmin's data rather than used to prescribe today, since
+  the athlete ran before a coaching session happened.
+- Decision: N/A — athlete completed a self-directed run before today's
+  coaching session; logging what happened rather than what would have been
+  prescribed.
+- Completed (activity id 24210613462, "Los Angeles - Base"): 5.08mi in
+  45:47, avg HR **154 bpm** — above the 138–149bpm Zone 2 band, into
+  Z3/Z4 territory by the LTHR-based zones. Splits show clear HR drift
+  while pace stayed roughly flat-to-slightly-faster: mile 1 137bpm @
+  9:04/mi → mile 2 151bpm @8:55/mi → mile 3 158bpm @9:05/mi → mile 4
+  163bpm @8:46/mi → final ~1mi 161→166bpm @9:24–8:25/mi. Reads as an
+  effort/pace-led run rather than an HR-capped one — useful fitness data
+  (9:00/mi average pace, faster than any recent Zone 2 session, and mile 1
+  alone was genuinely Zone 2 at 137bpm@9:04/mi) but not the aerobic-floor
+  stimulus the plan is built around, and it came at real recovery cost:
+  post-run Garmin readiness fell to 46/100 ("HIGH_RECOVERY_NEEDS",
+  recovery factor 38% POOR, ~38.9h recovery time estimate), acute load
+  jumped 396→652 in the one session.
+- Scheduled: nothing — run was already completed by the time this entry
+  was written; no forward-looking prescription made today.
+- Implication for tomorrow: treat as a harder day than the recent Z2
+  pattern despite fine morning-of numbers (elevated post-run acute load,
+  POOR recovery factor, ~39h recovery time flagged by Garmin) — default to
+  easy or rest tomorrow pending the actual morning readiness pull rather
+  than assuming today's good pre-run readiness carries over.
+
+---
+
 ## 2026-09-01
 
 - Readiness inputs: Sleep score 72/100 (FAIR), 6h52m, 4 awakenings (~45min
