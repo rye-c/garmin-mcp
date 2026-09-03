@@ -21,7 +21,7 @@ against real data, not a fixed deadline. See `PLAN.md` § Feasibility.
 | HR zones (bpm) | No Garmin named-zone breakdown returned by the API. Using an LTHR-based estimate (167 bpm LTHR): **Z1 <142, Z2 142–149, Z3 150–157, Z4 158–165, Z5 166+**. Garmin's own %max-HR-based named zones (e.g. a Z2 around 118–137) run noticeably lower and don't match this athlete's actual easy-run HR behavior below — use these LTHR-based bpm ranges, not the named Z1–Z5 labels, when prescribing workouts. | 2026-08-30 |
 | Current easy/Zone 2 pace-at-HR | ~10:05–10:52/mi (avg ≈10:15/mi) at 142–149 bpm, from 10 Base/easy runs Aug 10–28 | 2026-08-30 |
 | Recent race times / time trials | None logged. Garmin's model-predicted times (not measured): 5K 23:53, 10K 50:33, half marathon 1:54:45, marathon 4:15:09 | 2026-08-30 |
-| VO2max (Garmin estimate) | 48.0 | 2026-08-30 |
+| VO2max (Garmin estimate) | 48.3, climbing since a post-injury low of 47.4 (2026-07-01); pre-injury all-time high (this window) was 50.2 (2026-05-17–20); net +2.2 over the trailing 12 months | 2026-09-02 |
 | Weekly running volume (avg, last ~3 wks) | ≈25 mi/week (13 runs, Aug 9–28, ~67 total miles over 19 days) | 2026-08-30 |
 | Training age / recent consistency | Consistent recent pattern — a run roughly every 1–2 days for at least the last 3 weeks, plus regular cross-training (bouldering, freediving). Longer-term training age unknown. | 2026-08-30 |
 
@@ -70,8 +70,24 @@ optimistic, more firmly than the first pass suggested.**
   - Jun–Aug 2026: sliding back to ~10:11/mi (current)
   - **Net over the full 12 months: ~36 sec/mi *slower* now than a year
     ago**, despite 965mi of volume in between — not the steady
-    block-over-block improvement the original heuristic assumed. VO2max
-    corroborates the recent slide: 50.0 (2026-06-03) → 48.0 (2026-07-02).
+    block-over-block improvement the original heuristic assumed.
+  - **Correction (2026-09-02): VO2max does NOT corroborate a slide** —
+    that was a mischaracterization based on two cherry-picked snapshot
+    dates. The actual full-year VO2max trend, pulled 2026-09-02: 46.1
+    (2025-09-02) → 49.3 (early Nov 2025) → 47.1 (Jan 2026 winter dip) →
+    **50.2, all-time high in this window** (2026-05-17–20, just before
+    the injury) → 47.4 post-injury low (2026-07-01) → **48.3 now
+    (2026-09-02), climbing again**. Net over the full 12 months:
+    **+2.2**, a genuine improvement, not flat or negative. The engine
+    (aerobic capacity) is intact and already most of the way back from
+    the injury dip; it's specifically running-pace-at-a-given-HR
+    (economy/efficiency) that's lagging, which commonly recovers slower
+    than raw VO2max after a layoff and should keep closing with
+    consistent running-specific volume — exactly what Base 1 is doing.
+    This meaningfully softens the "flat-to-negative" framing below: the
+    athlete has real, recent, demonstrated fitness gains (the May 50.2
+    peak) and a plausible recovery-in-progress story, not a stalled or
+    declining trend.
   - Confirmed confound, not just fitness loss (updated 2026-09-02 — the
     athlete reported the cause directly, superseding the earlier
     "plausible confound" hedge): the 10-day gap (2026-05-29 to
@@ -86,14 +102,22 @@ optimistic, more firmly than the first pass suggested.**
     timeline, not just base volume, is now part of what determines how
     fast pace-at-HR can recover. See § Constraints & context for the
     full injury note and its implication for load-spike caution.
-- Revised recommendation: 16 weeks remains a **checkpoint, not a
-  deadline**, and the case for that is now stronger than 2026-08-30's
-  first pass — "flat-to-negative over a year" is a worse starting trend
-  line than the original 10–30 sec/mi-per-block heuristic assumed. Priority
-  for the next block: protect against repeat multi-week gaps (the
-  2026-05-29–06-08 gap visibly preceded the summer slide) and don't fight
-  peak-heat conditions for HR-capped work where avoidable. Re-run this
-  again in 2–3 weeks with fresh data.
+- Revised recommendation (updated 2026-09-02 with the VO2max correction
+  and confirmed injury above): 16 weeks remains a **checkpoint, not a
+  deadline**, but the framing is now more balanced than 2026-08-30's or
+  2026-08-31's passes — this isn't a stalled or declining athlete
+  (VO2max net +2.2/year, a fresh all-time-high in May), it's a genuine
+  fitness gain interrupted by a real injury, with pace-at-HR (the
+  goal-specific metric) lagging the broader recovery, which is the
+  expected pattern rather than a red flag on its own. Still can't call
+  16 weeks solidly on-track without more data — the pace-at-HR gap to
+  7:45/mi is real regardless of cause — but "optimistic" should be read
+  as "uncertain, pending the rebuild," not "the athlete isn't
+  progressing." Priority for the next block: protect against repeat
+  multi-week gaps, don't fight peak-heat conditions for HR-capped work
+  where avoidable, and watch pace-at-HR specifically (not just VO2max)
+  as the tell for whether the rebuild is on schedule. Re-run this again
+  in 2–3 weeks with fresh data.
 - Flagged to the athlete in `TRAINING_LOG.md` (2026-08-31 entry, addendum).
 
 _Superseded first assessment, 2026-08-30 (based on ~3 weeks of data):_ distance

@@ -113,6 +113,20 @@ Template for each entry:
   history, given elevated re-injury risk during return-to-running even
   after symptoms fully resolve. Reinforces defaulting to easy/rest
   tomorrow and watching for a repeat of unplanned intensity going forward.
+- Addendum 2: athlete pushed back on the "flat-to-negative" trend
+  characterization from 2026-08-31, specifically re: VO2max — correctly.
+  Pulled the actual full-year VO2max trend (previously only compared two
+  cherry-picked snapshot dates, 6/3 vs 7/2): 46.1 (2025-09-02) → 49.3
+  (early Nov 2025) → 47.1 (Jan 2026 dip) → **50.2 all-time high**
+  (2026-05-17–20, just before the injury) → 47.4 post-injury low
+  (2026-07-01) → **48.3 now, climbing**. Net over 12 months: **+2.2**, a
+  real improvement, not flat. Corrected `ATHLETE_PROFILE.md` §
+  Feasibility verdict and baseline table accordingly — the goal-specific
+  pace-at-Zone-2-HR gap is still real, but the "athlete isn't
+  progressing" framing was wrong; this is a genuine fitness gain
+  interrupted by a real injury, with pace-at-HR lagging the broader
+  (already-mostly-recovered) VO2max recovery, which is the expected
+  pattern post-layoff rather than a red flag on its own.
 
 ---
 
