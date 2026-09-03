@@ -19,6 +19,40 @@ Template for each entry:
 
 ---
 
+## 2026-09-03
+
+- Readiness inputs: Sleep score **50/100 POOR**, only 4h18m, essentially no
+  REM (2.7%), 1 awakening, sleep stress 23. HRV 48ms overnight (still
+  within the balanced band 45-58ms, weekly avg 55ms) — HRV itself is
+  fine, it's sleep quantity/quality that's poor. Resting HR **48 bpm** —
+  up from the recent 43-47bpm string, consistent with incomplete
+  recovery. Garmin Training Readiness: **26/100, LOW,
+  "FIND_TIME_TO_RELAX"** — driven by sleep factor 35% POOR and recovery
+  factor 67% MODERATE (20.2h recovery time still outstanding from
+  yesterday's run). Body battery LOW, only charged +35 overnight (a
+  normal full night charges well more than that). No activity done yet
+  today; nothing scheduled.
+- Read on readiness: Unambiguous — this is the lowest readiness score in
+  the log so far. Two things are stacking: a short, poor-quality night
+  (4h18m, almost no REM) landing directly on top of yesterday's
+  harder-than-intended threshold-effort run (154bpm avg, 14 embedded
+  surges), which per Garmin's own post-run estimate hadn't finished
+  recovering yet as of this morning. Exactly the pattern flagged in
+  yesterday's entry as a reason to expect today to need to be easy/rest,
+  now confirmed by the actual morning data rather than assumed.
+- Decision: **Rest.** No run today. This isn't a "downgrade to easy Zone
+  2" situation — sleep factor alone (35% POOR) and a still-open recovery
+  window from yesterday both independently argue for zero training
+  stress today, and stacked together it's not close. A short walk is
+  fine if the athlete wants to move, but nothing structured.
+- Scheduled: nothing — rest day. No workout built or scheduled on the
+  Garmin calendar.
+- Note: first application of the 2026-09-03 change to stop deciding
+  sessions from a phase/week template — this call came entirely from
+  today's actual readiness data (see `CLAUDE.md`, `PLAN.md`).
+
+---
+
 ## 2026-09-02
 
 > Note to athlete: No Zone 2 workout had been scheduled on the calendar
