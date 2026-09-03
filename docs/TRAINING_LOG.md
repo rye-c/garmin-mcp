@@ -52,36 +52,45 @@ Template for each entry:
   prescribed.
 - Completed (activity id 24210613462, "Los Angeles - Base"): 5.08mi in
   45:47, avg HR **154 bpm** — above the 138–149bpm Zone 2 band, into
-  Z3/Z4 territory by the LTHR-based zones. Mile-lap view alone
-  understates what happened; the typed-splits/full-activity data tell a
-  clearer story:
-  - First 4.16mi continuous: 37:27, avg HR 152, pace 9:00/mi.
-  - A genuine 26s walk break at ~4.16mi (HR still 152 while walking —
-    hadn't recovered yet).
-  - Then, instead of easing off, **pace surged over the last ~0.9mi**:
-    0.25mi @9:15/mi (HR158) → 0.30mi @8:43/mi (HR164) → final 0.33mi
-    @**8:23/mi, HR166**, peak 172. This is a deliberate finish push, not
-    passive cardiac drift.
+  Z3/Z4 territory by the LTHR-based zones. Mile-lap and typed-splits
+  views both understated what actually happened; pulling the raw FIT
+  per-second record stream (not just laps) showed the real structure:
+  - The activity had a device-loaded structured workout attached
+    ("Base", HR target 125–150bpm, 43min) — this lives on the watch, not
+    Garmin Connect's calendar, which is why our schedule check found
+    nothing today.
+  - **14 short surges/strides** embedded in the run, roughly every
+    1.5–3.5min from ~15min in through the finish, each 6–23s long,
+    peaking at **5:32–6:57/mi** (vs. ~9:00/mi cruise pace): 6:28:56,
+    6:30:23, 6:31:42, 6:33:09, 6:35:14, 6:37:48, 6:41:09, 6:42:31,
+    6:45:06, 6:46:46, 6:49:58, 6:52:39, 6:56:16, 6:58:17 (local start
+    times). These, not passive drift, are the real driver of the
+    sustained high HR and the repeated `hr_high_alert` events in the FIT
+    file (the surges kept blowing through the watch's 150bpm ceiling).
+  - What first looked like a calm "26s walk break" at ~4.16mi was
+    actually recovery from the hardest surge (peak 5:59/mi, HR climbing
+    to 170) — pace collapsed to 16–27min/mi (near-stop) for most of a
+    minute beforehand. What looked like a "finish push" was really just
+    the last two of the fourteen surges (6:56, 6:58) — the pattern
+    repeated to the line, not a one-time kick.
   - Confounds ruled out: weather was 66°F/73% humidity/light wind (cool,
     not a heat-inflated-HR case); elevation was 13m gain/13m loss over
     the whole run (essentially flat, not hill-driven).
   - Garmin's own training-effect classifier labels this **"LACTATE_
-    THRESHOLD"** (aerobic TE 4.0, anaerobic TE 2.1) — its algorithm reads
-    this as a threshold session, not a base run, independent of the
-    138–149bpm band we use. Normalized power (340W) ≈ avg power (335W),
-    i.e. a steady held effort, not a casual variable jog. Cadence 177spm
-    avg (max 209), GCT 231ms — mechanics held up fine under the effort.
-    Body battery impact -15. Athlete-logged RPE/feel both 50
-    (moderate/neutral) — notably didn't feel maxed-out subjectively even
-    though the objective data (HR, TE label, power) reads as threshold
-    work.
-  - Useful fitness data point (9:00/mi average pace, faster than any
-    recent Zone 2 session) but not the aerobic-floor stimulus the plan is
-    built around — and the finish-fast pattern means this reads as
-    "chose to push," not "drifted." It came at real recovery cost:
-    post-run Garmin readiness fell to 46/100 ("HIGH_RECOVERY_NEEDS",
-    recovery factor 38% POOR, ~38.9h recovery time estimate), acute load
-    jumped 396→652 in the one session.
+    THRESHOLD"** (aerobic TE 4.0, anaerobic TE 2.1) — consistent with 14
+    repeated anaerobic bursts layered on an aerobic base, not a single
+    push. Normalized power (340W) ≈ avg power (335W) — steady overall
+    despite the surges. Cadence 177spm avg (max 209), GCT 231ms —
+    mechanics held up fine. Body battery impact -15. Athlete-logged
+    RPE/feel both 50 (moderate/neutral) — didn't feel maxed-out
+    subjectively despite the objective threshold-level data.
+  - Useful fitness data point (9:00/mi average cruise pace, faster than
+    any recent Zone 2 session) but not the aerobic-floor stimulus the
+    plan is built around — this was Zone 2 running with ~14 unscheduled
+    strides/pickups mixed in, not continuous Zone 2. It came at real
+    recovery cost: post-run Garmin readiness fell to 46/100
+    ("HIGH_RECOVERY_NEEDS", recovery factor 38% POOR, ~38.9h recovery
+    time estimate), acute load jumped 396→652 in the one session.
 - Scheduled: nothing — run was already completed by the time this entry
   was written; no forward-looking prescription made today.
 - Implication for tomorrow: treat as a harder day than the recent Z2
