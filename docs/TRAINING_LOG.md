@@ -148,6 +148,25 @@ Template for each entry:
   thing to return post-layoff. Net: underlying engine is substantially
   rebuilt; running-specific efficiency at low HR is not yet, and is the
   one to keep watching.
+- Addendum 4: athlete asked for a genuine biomechanics deep-dive —
+  cadence, stride length, GCT, vertical oscillation — to find what
+  actually drives efficiency, explicitly distrusting Garmin's derived
+  scores (VO2max, training status, etc.) in favor of raw telemetry.
+  Pulled full activity detail (cadence/stride/GCT/VO/power) for 79 of the
+  116 Zone-2-band runs this year, stratified across all months, and
+  correlated mechanics against pace at matched effort (HR roughly
+  constant within-band, so pace differences ≈ efficiency differences).
+  Full results, thresholds, and the pre/post-injury gait-shift finding
+  now live in `ATHLETE_PROFILE.md` § Running economy / biomechanics
+  (new section). Headline: cadence (r=−0.76) and GCT (r=+0.53) are real
+  efficiency levers for this athlete (efficient days: cadence 170–179
+  spm, stride ~100–103cm); vertical oscillation (r=−0.19) is not — don't
+  prescribe drills targeting it. Post-injury mechanics at matched pace
+  are *better* by conventional standards (higher cadence, shorter GCT)
+  than pre-injury, yet HR-at-pace hasn't improved — argues the current
+  bottleneck is metabolic/cardiovascular capacity, not gait, which
+  reinforces staying the course on easy-volume-first rather than adding
+  form work or intensity.
 
 ---
 

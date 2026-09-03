@@ -25,6 +25,46 @@ against real data, not a fixed deadline. See `PLAN.md` § Feasibility.
 | Weekly running volume (avg, last ~3 wks) | ≈25 mi/week (13 runs, Aug 9–28, ~67 total miles over 19 days) | 2026-08-30 |
 | Training age / recent consistency | Consistent recent pattern — a run roughly every 1–2 days for at least the last 3 weeks, plus regular cross-training (bouldering, freediving). Longer-term training age unknown. | 2026-08-30 |
 
+## Running economy / biomechanics (added 2026-09-02, from raw run telemetry)
+
+Analyzed 79 Zone 2 (138–149bpm) road runs spanning the full year — cadence,
+stride length, ground contact time (GCT), vertical oscillation vs. pace at
+matched effort — to find what mechanically predicts this athlete's best
+easy-effort pace, independent of Garmin's derived scores.
+
+- **Cadence and GCT are real efficiency levers; vertical oscillation is
+  not.** Cadence vs. pace r=−0.76, GCT vs. pace r=+0.53 (shorter GCT →
+  faster), both only weakly tied to HR (r≈0.2–0.3) — i.e. these track
+  efficiency, not just effort. Vertical oscillation vs. pace r=−0.19,
+  essentially no signal — don't prescribe drills aimed at reducing bounce,
+  it isn't a lever for this athlete.
+- **Efficient-day mechanics**: cadence 170–179 spm, stride ~100–103cm.
+  Slower Zone 2 days cluster at cadence 148–158 spm. Cadence below ~155
+  spm on an easy run is a signal worth noting, not necessarily a target
+  to force upward artificially.
+- **Counterintuitive post-injury gait shift**: comparing mechanics at
+  matched pace (regression residuals), pre-injury cadence ran slightly
+  *below* what pace predicted (−1.6 spm) and GCT slightly *longer*
+  (+4.9ms); post-injury the pattern flipped — cadence *above* predicted
+  (+3.7 spm), GCT *shorter* (−9.5ms). By conventional running-economy
+  standards this is *better*-looking form, yet aerobic cost (HR) at a
+  given pace hasn't improved post-injury. This argues against "fix the
+  form" as the current lever and toward the metabolic/cardiovascular
+  side (capillary density, mitochondrial density, blood volume) lagging
+  behind gait — those adapt on a slower timeline than stride mechanics
+  and are exactly what consistent low-HR volume rebuilds, not drills or
+  speed work. Alternative/compatible explanation: the shift could be a
+  protective post-injury gait adaptation (shorter, quicker stride reduces
+  impact loading) that costs more energy until fully ingrained — same
+  practical conclusion either way.
+- **Practical implication for the plan**: don't add cadence drills or
+  form-focused work — mechanics are already in the athlete's efficient
+  range, if anything more so than pre-injury. Keep prioritizing easy
+  Zone 2 volume per the existing plan; that's what actually addresses the
+  current bottleneck. Watch cadence on easy runs as a leading indicator
+  (a drop back toward 150s would be worth a readiness/fatigue check), not
+  as something to chase upward directly.
+
 ## Constraints & context
 
 _(injuries, schedule constraints, travel, other sports, anything that
