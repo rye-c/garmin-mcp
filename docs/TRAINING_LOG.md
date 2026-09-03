@@ -98,6 +98,21 @@ Template for each entry:
   POOR recovery factor, ~39h recovery time flagged by Garmin) — default to
   easy or rest tomorrow pending the actual morning readiness pull rather
   than assuming today's good pre-run readiness carries over.
+- Addendum: athlete disclosed a **May 2026 injury** (fully resolved as of
+  today, no current symptoms/restrictions) as the cause of the previously
+  unexplained 2026-05-29→06-08 training gap. This upgrades that gap from
+  "plausible confound" to confirmed cause in the feasibility read — see
+  `ATHLETE_PROFILE.md` § Feasibility verdict and § Constraints & context
+  (both updated). Practical effect: the May 9:14/mi pace-at-HR peak is
+  better read as a pre-injury ceiling being rebuilt toward on a timeline,
+  not a number the athlete already "should" be back at, which is a
+  slightly more forgiving frame than Sunday's assessment used. It also
+  raises the caution level on today's run specifically — 14 unplanned,
+  self-directed threshold-pace surges only ~3 months into a post-injury
+  ramp-up is a bigger flag than the same session would be absent that
+  history, given elevated re-injury risk during return-to-running even
+  after symptoms fully resolve. Reinforces defaulting to easy/rest
+  tomorrow and watching for a repeat of unplanned intensity going forward.
 
 ---
 

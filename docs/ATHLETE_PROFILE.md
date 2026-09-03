@@ -31,7 +31,22 @@ _(injuries, schedule constraints, travel, other sports, anything that
 should shape the plan — update as you learn it from the athlete or from
 patterns in the training log)_
 
-- None reported by the athlete yet.
+- **Injury, May 2026 (reported 2026-09-02, fully resolved as of that
+  report — no current symptoms/restrictions).** This explains the
+  10-day training gap 2026-05-29→06-08 previously flagged in the
+  year-long pull as an unexplained confound — it was a deload forced by
+  this injury, followed by a deliberate slow ramp-up since, not a random
+  layoff. Type/location of injury not yet specified by the athlete.
+  Practical implications: (1) the post-injury rebuild is a better
+  explanation for the summer pace-at-HR slide (9:14/mi May peak →
+  ~10:11/mi now) than pure detraining or heat alone — treat the May peak
+  as "proven ceiling, pre-injury" rather than a number the athlete should
+  already be back at; (2) even "fully resolved" injuries carry elevated
+  re-injury risk for a while during return-to-running, especially from
+  unplanned load spikes — this raises the caution level (beyond the
+  usual training-plan reasoning) on sessions like the 2026-09-02 run
+  (14 unplanned threshold-pace surges, self-directed, no coach input) —
+  see `TRAINING_LOG.md` 2026-09-02.
 - Cross-trains regularly in freediving/apnea and bouldering alongside
   running — factor this into same-day training load, not just run mileage.
 
@@ -57,12 +72,20 @@ optimistic, more firmly than the first pass suggested.**
     ago**, despite 965mi of volume in between — not the steady
     block-over-block improvement the original heuristic assumed. VO2max
     corroborates the recent slide: 50.0 (2026-06-03) → 48.0 (2026-07-02).
-  - Plausible confounds, not just fitness loss: a 10-day layoff
-    (2026-05-29 to 2026-06-08) right after the May peak, and summer heat
-    (LA, Jul–Aug) reliably inflates HR at a given pace independent of
-    fitness. The 9:14/mi May figure shows the athlete's ceiling is real
-    and higher than current — the problem is holding near it through an
-    uninterrupted block, not raw capability.
+  - Confirmed confound, not just fitness loss (updated 2026-09-02 — the
+    athlete reported the cause directly, superseding the earlier
+    "plausible confound" hedge): the 10-day gap (2026-05-29 to
+    2026-06-08) right after the May peak was a forced deload from an
+    **injury** (now fully resolved), followed by a deliberate slow
+    ramp-up since — not a random layoff. Summer heat (LA, Jul–Aug) is
+    still a separate, additional factor that reliably inflates HR at a
+    given pace independent of fitness. The 9:14/mi May figure shows the
+    athlete's ceiling is real and higher than current, but it's now
+    better read as a **pre-injury ceiling** being rebuilt toward, not a
+    number the athlete should already have reclaimed — the rebuild
+    timeline, not just base volume, is now part of what determines how
+    fast pace-at-HR can recover. See § Constraints & context for the
+    full injury note and its implication for load-spike caution.
 - Revised recommendation: 16 weeks remains a **checkpoint, not a
   deadline**, and the case for that is now stronger than 2026-08-30's
   first pass — "flat-to-negative over a year" is a worse starting trend
