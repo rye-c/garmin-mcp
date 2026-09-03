@@ -52,17 +52,36 @@ Template for each entry:
   prescribed.
 - Completed (activity id 24210613462, "Los Angeles - Base"): 5.08mi in
   45:47, avg HR **154 bpm** — above the 138–149bpm Zone 2 band, into
-  Z3/Z4 territory by the LTHR-based zones. Splits show clear HR drift
-  while pace stayed roughly flat-to-slightly-faster: mile 1 137bpm @
-  9:04/mi → mile 2 151bpm @8:55/mi → mile 3 158bpm @9:05/mi → mile 4
-  163bpm @8:46/mi → final ~1mi 161→166bpm @9:24–8:25/mi. Reads as an
-  effort/pace-led run rather than an HR-capped one — useful fitness data
-  (9:00/mi average pace, faster than any recent Zone 2 session, and mile 1
-  alone was genuinely Zone 2 at 137bpm@9:04/mi) but not the aerobic-floor
-  stimulus the plan is built around, and it came at real recovery cost:
-  post-run Garmin readiness fell to 46/100 ("HIGH_RECOVERY_NEEDS",
-  recovery factor 38% POOR, ~38.9h recovery time estimate), acute load
-  jumped 396→652 in the one session.
+  Z3/Z4 territory by the LTHR-based zones. Mile-lap view alone
+  understates what happened; the typed-splits/full-activity data tell a
+  clearer story:
+  - First 4.16mi continuous: 37:27, avg HR 152, pace 9:00/mi.
+  - A genuine 26s walk break at ~4.16mi (HR still 152 while walking —
+    hadn't recovered yet).
+  - Then, instead of easing off, **pace surged over the last ~0.9mi**:
+    0.25mi @9:15/mi (HR158) → 0.30mi @8:43/mi (HR164) → final 0.33mi
+    @**8:23/mi, HR166**, peak 172. This is a deliberate finish push, not
+    passive cardiac drift.
+  - Confounds ruled out: weather was 66°F/73% humidity/light wind (cool,
+    not a heat-inflated-HR case); elevation was 13m gain/13m loss over
+    the whole run (essentially flat, not hill-driven).
+  - Garmin's own training-effect classifier labels this **"LACTATE_
+    THRESHOLD"** (aerobic TE 4.0, anaerobic TE 2.1) — its algorithm reads
+    this as a threshold session, not a base run, independent of the
+    138–149bpm band we use. Normalized power (340W) ≈ avg power (335W),
+    i.e. a steady held effort, not a casual variable jog. Cadence 177spm
+    avg (max 209), GCT 231ms — mechanics held up fine under the effort.
+    Body battery impact -15. Athlete-logged RPE/feel both 50
+    (moderate/neutral) — notably didn't feel maxed-out subjectively even
+    though the objective data (HR, TE label, power) reads as threshold
+    work.
+  - Useful fitness data point (9:00/mi average pace, faster than any
+    recent Zone 2 session) but not the aerobic-floor stimulus the plan is
+    built around — and the finish-fast pattern means this reads as
+    "chose to push," not "drifted." It came at real recovery cost:
+    post-run Garmin readiness fell to 46/100 ("HIGH_RECOVERY_NEEDS",
+    recovery factor 38% POOR, ~38.9h recovery time estimate), acute load
+    jumped 396→652 in the one session.
 - Scheduled: nothing — run was already completed by the time this entry
   was written; no forward-looking prescription made today.
 - Implication for tomorrow: treat as a harder day than the recent Z2
