@@ -15,7 +15,22 @@ through hard workouts — hard workouts (threshold/VO2max) raise your
 HR). Because this athlete's goal is the floor, the plan should be
 **~80% easy Zone 2 running, ~20% harder work**, not the reverse.
 
-## Periodization skeleton (~16 weeks, adjust freely)
+## Periodization skeleton — superseded 2026-09-03, not in active use
+
+**This calendar-phase skeleton (Base 1 → Base 2 → Build → Taper) does not
+apply and should not be used to decide sessions.** It assumes a novice
+building from near-zero; this athlete has ~965mi/year of consistent
+training, a proven 13.6mi Zone-2 long run already on record, and a
+detailed physiological profile (VO2max trend, LT1/LT2, cadence/efficiency
+data, injury-recovery status). The athlete explicitly asked not to be run
+through a generic templated plan. **Every session should instead be
+decided from that day's deep assessment** — readiness inputs, where
+pace-at-HR/CTL/tolerance sit relative to their own recent peaks, injury-
+recovery status, and any biomechanics/threshold findings in
+`ATHLETE_PROFILE.md` — not from "what week am I in." See
+`ATHLETE_PROFILE.md` for the current state to assess against each day.
+
+_Original skeleton, kept for reference only, not to be followed:_
 
 | Phase | Weeks | Focus |
 |---|---|---|

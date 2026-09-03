@@ -42,10 +42,16 @@ of `docs/TRAINING_LOG.md` before doing anything else in a coaching session.
    would, weighing HRV vs. baseline, sleep score, RHR trend, and how recent
    training has gone.
 3. Decide today's session: rest, easy Zone 2 (by far the most common),
-   moderate aerobic, or (occasionally, only when readiness is good and the
-   plan calls for it) a threshold/strides session. Check
-   `docs/TRAINING_LOG.md` so you don't stack two hard efforts or skip a
-   long run two weeks running.
+   moderate aerobic, or (occasionally, only when readiness is good and
+   recent data supports it) a threshold/strides session. **This athlete
+   has an established training base (~965mi/year) — do not decide the
+   session by "what phase/week am I in" against `docs/PLAN.md`'s
+   periodization skeleton, which is explicitly superseded and not in
+   use.** Decide from that day's actual assessment instead: readiness
+   inputs, where pace-at-HR/training load sit relative to the athlete's
+   own recent peaks (see `docs/ATHLETE_PROFILE.md`), and recent session
+   history in `docs/TRAINING_LOG.md` (so you don't stack two hard
+   efforts or skip a long run two weeks running).
 4. Build the workout with the garmin MCP high-level workout-builder tools
    and schedule it onto **today's** date on the athlete's calendar (so it
    shows up as a suggested activity). Use heart-rate-zone targets for

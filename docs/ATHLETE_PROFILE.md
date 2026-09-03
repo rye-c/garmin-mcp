@@ -89,6 +89,14 @@ patterns in the training log)_
   see `TRAINING_LOG.md` 2026-09-02.
 - Cross-trains regularly in freediving/apnea and bouldering alongside
   running — factor this into same-day training load, not just run mileage.
+- **Not a novice, doesn't want a generic templated plan (stated
+  2026-09-03).** Athlete has an established training base (~965mi/year)
+  and explicitly does not want sessions decided by "which week/phase of a
+  standard plan is this." `PLAN.md`'s periodization skeleton is
+  superseded for this reason — see that file. Every session should come
+  from that day's actual data assessment (readiness + recent trends +
+  where the athlete sits relative to their own history), not a canned
+  progression. This is a standing preference, not a one-time note.
 
 ## Feasibility verdict (updated as data comes in)
 
