@@ -127,6 +127,27 @@ Template for each entry:
   interrupted by a real injury, with pace-at-HR lagging the broader
   (already-mostly-recovered) VO2max recovery, which is the expected
   pattern post-layoff rather than a red flag on its own.
+- Addendum 3: athlete then asked for a full independent re-assessment
+  from detailed data rather than Garmin's summary fields — fair, since
+  Addendum 2 itself came from a fix to a lazy comparison. Pulled raw
+  run-level data (193 qualifying runs) plus four full-year trend
+  endpoints (VO2max, running tolerance, endurance score, CTL/ATL/TSB) and
+  a year of sleep/HRV. All four fitness/load metrics independently show
+  the same shape — real build, real injury crash, partial/uneven
+  recovery — full table and reasoning now in `ATHLETE_PROFILE.md` §
+  Feasibility verdict addendum. Two new findings: (1) the return-to-
+  training ramp in late June was measurably too aggressive by Garmin's
+  own ACWR/training-status data (VERY_HIGH ACWR, "OVERREACHING_1" status,
+  2026-06-22–06-29) — didn't cause a repeat setback this time, but a
+  pattern to avoid next time there's a gap to rebuild from; (2)
+  pace-at-Zone-2-HR specifically has been flat for two straight months
+  (Jul 10:08/mi, Aug 10:13/mi, both solid samples) even as VO2max/
+  tolerance/endurance score all climbed over the same stretch — this is
+  the metric most tied to the actual goal and it's lagging the broader
+  recovery, consistent with running economy typically being the last
+  thing to return post-layoff. Net: underlying engine is substantially
+  rebuilt; running-specific efficiency at low HR is not yet, and is the
+  one to keep watching.
 
 ---
 

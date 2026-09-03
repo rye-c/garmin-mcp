@@ -120,6 +120,49 @@ optimistic, more firmly than the first pass suggested.**
   in 2–3 weeks with fresh data.
 - Flagged to the athlete in `TRAINING_LOG.md` (2026-08-31 entry, addendum).
 
+**Addendum 2026-09-02 — multi-metric independent verification (athlete
+pushed back on "flat," and was right).** Pulled raw run-level data (193
+qualifying runs, not Garmin's pre-summarized trend) plus four independent
+fitness/load metrics across the full year, rather than relying on a single
+VO2max snapshot. All four show the same real shape — build, injury crash,
+partial/uneven recovery — not a flat year:
+
+| Metric | Sep 2025 start | Peak (pre-injury) | Trough (post-injury) | Now (9/2) | % of peak→trough drop recovered |
+|---|---|---|---|---|---|
+| VO2max | 46.1 | 50.2 (5/17–20) | 47.4 (7/1) | 48.3 | 32% |
+| Running Tolerance (weekly load capacity) | 22.6 km/wk | 68.9 km/wk (5/17) | 49.3 km/wk (7/26) | 51.9 km/wk | 13% |
+| Endurance Score | 5804 | 6292 (4/30–5/7, briefly "well_trained" tier) | 5815 (7/30) | 5888 | 15% |
+| CTL (chronic training load) | ~700–730 | 815 (5/4) | 219 (6/13–20, Garmin status "DETRAINING") | 562 | 58% |
+
+Two new findings from this deeper pull, not previously known:
+
+1. **The return-to-training ramp after the injury was measurably too
+   fast.** ACWR hit "VERY_HIGH" (2.0–2.4; generally want <1.5) for about a
+   week, 2026-06-22 to 06-29, and Garmin's training-status flagged
+   "OVERREACHING_1" over the same span — loading back up faster than the
+   6-week base could absorb, right after a layoff. Apparently didn't cause
+   a repeat setback this time, but it's a concrete pattern to avoid
+   repeating after any future gap: ramp load back gradually and watch
+   ACWR, not just the daily readiness score, when resuming after time off.
+2. **Pace-at-Zone-2-HR (the goal-specific metric) hasn't moved in two full
+   months.** Recomputed directly from raw runs (distance-weighted, with
+   solid samples): July averaged 10:08/mi, August 10:13/mi in the
+   138–149bpm band — flat to slightly worse, while VO2max/tolerance/
+   endurance score were all climbing over the same stretch. This is the
+   metric most directly tied to the 7:45/mi goal and it's the laggard —
+   consistent with running-specific economy typically being the last
+   thing to return after a layoff, but it means patience on the 16-week
+   timeline is warranted even though the broader fitness picture looks
+   good. Sleep/HRV data corroborates the injury was a real physiological
+   event, not just missed mileage — overnight HRV in June repeatedly sat
+   in the 36–44ms range vs. the healthier 44–61ms band seen before and
+   after.
+
+Net read: the underlying engine (VO2max, load capacity) is substantially
+rebuilt or close to it. What's lagging is running-specific efficiency at
+low HR — track pace-at-HR specifically (not just VO2max) as the tell for
+whether the rebuild, and the 16-week goal timeline, are on schedule.
+
 _Superseded first assessment, 2026-08-30 (based on ~3 weeks of data):_ distance
 called "plausible" from a 7.1mi longest-run high-water mark; pace-at-HR gap
 estimated at ~2:30/mi implying ~40–60+ weeks via the generic heuristic. The
