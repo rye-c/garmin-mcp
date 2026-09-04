@@ -19,6 +19,52 @@ Template for each entry:
 
 ---
 
+## 2026-09-04
+
+> Note to athlete: two things worth your attention, not urgent but worth
+> tracking — (1) resting HR has climbed 3 days running (recent baseline
+> 43-47 → 48 (9/3) → **49 (9/4)**), alongside two straight nights of poor,
+> short sleep (4.3h then 4.0h, both scored POOR). That combination is
+> what the plan's readiness heuristic calls "consider illness" territory,
+> not just normal fatigue — nothing else points that way yet, but if you
+> notice any other symptoms, don't push through it. (2) today's run
+> repeated the "start easy, let effort climb" pattern from 9/2, just
+> milder — see below.
+
+- Readiness inputs: Sleep score 54/100 POOR (second straight POOR night),
+  4h01m, sleep stress 26. HRV 46ms (bottom of the balanced band 45-58,
+  weekly avg 53ms — trending down). Resting HR 49bpm. Garmin Training
+  Readiness at wakeup: 27/100 LOW ("FIND_TIME_TO_RELAX") — already low
+  before any activity, similar to yesterday's 26. No workout had been
+  scheduled (yesterday was a rest day per readiness); athlete ran anyway
+  this morning, self-directed.
+- Read on readiness: Wakeup readiness was already telling the same story
+  as yesterday (LOW, poor-sleep-driven) before the run happened. Rather
+  than a single bad night, this is now two nights running, plus 3 days of
+  climbing resting HR — a trend, not a one-off, per the "several days
+  together is signal" heuristic.
+- Completed (activity id 24236332579, "Treadmill Running"): 3.76mi in
+  32:43, avg HR 144bpm. Mile splits: 128bpm@8:51/mi (warm-up, genuinely
+  Z1) → 146bpm@8:19/mi → 151bpm@8:40/mi → 152bpm@9:04/mi (final 0.76mi).
+  So 3 of the last 3.76mi sat at 146-152bpm — at or just above the LT1
+  (~150bpm) line established 2026-09-03, not clean 138-149bpm Zone 2 for
+  most of the run. Milder version of 9/2's pattern (no embedded surges
+  this time, just a steady mile-over-mile climb from an easy start) but
+  same underlying habit: starting conservative, then letting pace/effort
+  drift up rather than holding a HR cap. Post-run Garmin readiness fell
+  further to 15/100 POOR ("TIME_TO_RECHARGE") — the lowest reading in
+  this log to date, recovery time estimate 21.3h.
+- Decision: N/A — run was self-directed before today's session, logging
+  what happened. Going into tomorrow (9/5): given two straight nights of
+  poor sleep, 3 days of climbing RHR, and now the lowest readiness score
+  on record post-run, tomorrow should default to rest or, at most, a
+  short walk — not a run — regardless of how tomorrow's isolated morning
+  numbers look, until this multi-day trend actually turns around.
+- Scheduled: nothing — run already completed by the time this entry was
+  written.
+
+---
+
 ## 2026-09-03
 
 - Readiness inputs: Sleep score **50/100 POOR**, only 4h18m, essentially no
